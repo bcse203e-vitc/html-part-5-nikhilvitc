@@ -1,0 +1,63 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+
+  .button-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+
+  button {
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+
+  .gradient-button {
+    background: linear-gradient(45deg, #ff6f61, #ffcc00);
+    color: white;
+    border: none;
+  }
+  
+  .gradient-button:hover {
+    background: linear-gradient(45deg, #ffcc00, #ff6f61);
+  }
+  
+
+  .border-button {
+    background-color: transparent;
+    color: #333;
+    border: 2px solid #333;
+  }
+  
+  .border-button:hover {
+    border-color: #ff6f61;
+    color: #ff6f61;
+  }
+  
+  
+  .glowing-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    box-shadow: 0 0 10px #ff6f61, 0 0 20px #ff6f61, 0 0 30px #ff6f61;
+  }
+  
+  .glowing-button:hover {
+    box-shadow: 0 0 20px #ff6f61, 0 0 40px #ff6f61, 0 0 60px #ff6f61;
+    background-color: #ff6f61;
+  }
+  
