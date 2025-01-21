@@ -1,4 +1,4 @@
-/* General body styling */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,7 +6,7 @@ body {
     background-color: #f0f0f0;
   }
   
-  /* Gallery container styling using CSS Grid */
+
   .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -14,7 +14,7 @@ body {
     padding: 20px;
   }
   
-  /* Gallery item styling */
+
   .gallery-item {
     position: relative;
     overflow: hidden;
