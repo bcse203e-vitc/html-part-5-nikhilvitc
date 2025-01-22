@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.container {
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.light-theme {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.dark-theme {
+  background-color: #333;
+  color: #f4f4f4;
+}
