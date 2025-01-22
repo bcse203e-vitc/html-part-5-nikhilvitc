@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.hover-box {
+  width: 200px;
+  height: 200px;
+  margin: 5%;
+  padding: 10%;
+  background-color: #3498db;
+  border: 5px solid #2980b9;
+  transition: all 0.3s ease;
+}
+
+.hover-box:hover {
+  border-width: 10px;
+  border-color: #e74c3c;
+}
